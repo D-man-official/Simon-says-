@@ -133,7 +133,7 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").html("<font color='red'>Game Over</font>, Press Any Key to Restart");
+    $("#level-title").html("<font color='red'>Game Over</font>, <br>Press Any Key to Restart");
 
     Level = 0;
     gamePattern = [];
